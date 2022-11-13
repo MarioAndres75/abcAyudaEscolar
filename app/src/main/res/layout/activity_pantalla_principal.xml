@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panalla_ultima"
+    tools:context=".pantallaPrincipal">
+
+    <Button
+        android:id="@+id/mate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="411dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/lengua"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fisica"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="340dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/geografia"
+        app:layout_constraintTop_toBottomOf="@+id/quimica" />
+
+    <Button
+        android:id="@+id/lengua"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/geografia"
+        app:layout_constraintEnd_toStartOf="@+id/quimica"
+        app:layout_constraintStart_toEndOf="@+id/mate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/geografia"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="340dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fisica"
+        app:layout_constraintStart_toEndOf="@+id/historia"
+        app:layout_constraintTop_toBottomOf="@+id/lengua" />
+
+    <Button
+        android:id="@+id/quimica"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/transparent"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/fisica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lengua"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/historia"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="340dp"
+        android:background="@android:color/transparent"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/geografia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mate" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/boton"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mate" />
+</androidx.constraintlayout.widget.ConstraintLayout>
