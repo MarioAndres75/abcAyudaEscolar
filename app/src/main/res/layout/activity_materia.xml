@@ -4,38 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pantalla_pizarra"
+    android:background="@drawable/materiaopciondeanook"
     android:scrollbarSize="24dp"
     tools:context=".Materia">
 
     <TextView
         android:id="@+id/nombreMateriaOpciones"
-        android:layout_width="235dp"
-        android:layout_height="76dp"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
         android:layout_marginTop="95dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="118dp"
+        android:layout_marginEnd="384dp"
         android:background="#D8D2D2"
         android:fontFamily="cursive"
         android:gravity="center"
         android:shadowColor="@color/material_dynamic_neutral20"
         android:text="hola"
-        android:textColor="@color/black"
+        android:textColor="@android:color/transparent"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/clasesOnLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/clasesOnLine"
-        android:layout_width="132dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="395dp"
+        android:layout_width="113dp"
+        android:layout_height="181dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nombreMateriaOpciones" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
 
     <Button
         android:id="@+id/alInicioDeseMateria"

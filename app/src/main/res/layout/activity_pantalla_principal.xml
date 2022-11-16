@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/panalla_ultima"
+    android:background="@drawable/homeunook"
     tools:context=".pantallaPrincipal">
 
     <Button
@@ -66,7 +66,6 @@
         android:layout_marginEnd="62dp"
         android:layout_marginBottom="60dp"
         android:background="@android:color/transparent"
-        android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/fisica"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/lengua"
@@ -80,7 +79,6 @@
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="340dp"
         android:background="@android:color/transparent"
-        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/geografia"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,13 +86,24 @@
 
     <ImageButton
         android:id="@+id/button2"
-        android:layout_width="59dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="32dp"
+        android:layout_width="4dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="4dp"
         android:background="@drawable/boton"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mate" />
+
+    <Button
+        android:id="@+id/cambioahomeconmenu"
+        android:layout_width="27dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="320dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

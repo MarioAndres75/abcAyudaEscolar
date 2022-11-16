@@ -14,9 +14,14 @@
         android:theme="@style/Theme.AbcAyudaEscolar"
         tools:targetApi="31">
         <activity
+            android:name=".inscripto_con_ok_verde"
+            android:exported="false" />
+        <activity
+            android:name=".opciones_por_curso_con_menuDesplegado"
+            android:exported="false" />
+        <activity
             android:name=".formularioRegistro"
             android:exported="false" />
-
         <activity
             android:name=".inscripto"
             android:exported="false" />

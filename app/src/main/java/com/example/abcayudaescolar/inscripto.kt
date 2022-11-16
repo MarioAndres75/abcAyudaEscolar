@@ -16,10 +16,12 @@ class inscripto : AppCompatActivity() {
         volver.setOnClickListener {
             val lanzar = Intent(this,pantallaPrincipal::class.java) //home
             startActivity(lanzar)
+            finish()
         }
         confirmo.setOnClickListener {
-            val lanzar = Intent(this,opciones_por_curso::class.java) //home
+            val lanzar = Intent(this,inscripto_con_ok_verde::class.java) //home
             startActivity(lanzar)
+            finish()
         }
     }
 }

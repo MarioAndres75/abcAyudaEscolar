@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/formularioderegistrook"
-    tools:context=".formularioRegistro">
+    android:background="@drawable/homedosconmenuok"
+    tools:context=".opciones_por_curso_con_menuDesplegado">
 
     <Button
-        android:id="@+id/aceptarRegistro"
-        android:layout_width="108dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="75dp"
-        android:layout_marginBottom="150dp"
+        android:id="@+id/volverAMenu"
+        android:layout_width="109dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

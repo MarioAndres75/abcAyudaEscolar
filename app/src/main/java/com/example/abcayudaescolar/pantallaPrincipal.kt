@@ -15,7 +15,7 @@ lateinit var quimica:Button
 lateinit var historia:Button
 lateinit var fisica:Button
 lateinit var salir:ImageButton
-
+lateinit var bajarBarra:Button
 
 class pantallaPrincipal : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,8 +28,13 @@ class pantallaPrincipal : AppCompatActivity() {
         historia=findViewById(R.id.historia)
         fisica=findViewById(R.id.fisica)
         salir=findViewById(R.id.button2)
+        bajarBarra=findViewById(R.id.cambioahomeconmenu)
         salir.setOnClickListener{
             finishAffinity()
+        }
+        bajarBarra.setOnClickListener{
+            val lanzar = Intent(this, opciones_por_curso_con_menuDesplegado::class.java) //home
+            startActivity(lanzar)
         }
 
 
