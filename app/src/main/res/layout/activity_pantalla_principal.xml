@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/homeunook"
+    android:background="@drawable/treshomedematerias"
     tools:context=".pantallaPrincipal">
 
     <Button
         android:id="@+id/mate"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="166dp"
+        android:layout_height="193dp"
         android:layout_marginStart="27dp"
         android:layout_marginTop="181dp"
         android:layout_marginEnd="33dp"
@@ -106,4 +106,25 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nnnnnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/menu" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="129dp"
+        android:layout_height="75dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="663dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

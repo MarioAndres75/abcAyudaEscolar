@@ -4,6 +4,7 @@ object Repositorio {
     var alumnos: MutableList<Alumnos> = mutableListOf()
 
     init {
+        alumnos.add(Alumnos(" ", "", "", "","",""))
         alumnos.add(Alumnos("1", "MARIO", "OCAMPO", "ESCUELA 24","4","1"))
         alumnos.add(Alumnos("22222222", "ROBERTO", "PEREZ", "ESCUELA 22","6","1234"))
         alumnos.add(Alumnos("33333333", "GRACIELA", "GOMEZ", "ESCUELA 01","1","1234"))

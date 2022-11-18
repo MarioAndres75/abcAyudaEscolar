@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Git/ABCescolar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3055" />
+        <entry key="..\:/Git/ABCescolar/app/src/main/res/drawable/niveles.xml" value="0.238" />
+        <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_cambio_conrasenia.xml" value="0.24818840579710144" />
         <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_clases_on_line.xml" value="0.24818840579710144" />
         <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_formulario_registro.xml" value="0.2708333333333333" />
         <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_inscripto.xml" value="0.2708333333333333" />
+        <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_inscripto_con_ok_verde.xml" value="0.24818840579710144" />
         <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_main.xml" value="0.3482789855072464" />
         <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_materia.xml" value="0.2708333333333333" />
         <entry key="..\:/Git/ABCescolar/app/src/main/res/layout/activity_opciones.xml" value="0.2708333333333333" />

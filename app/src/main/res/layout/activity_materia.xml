@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/materiaopciondeanook"
+    android:background="@drawable/cuatroopciondeanodelamateria"
     android:scrollbarSize="24dp"
     tools:context=".Materia">
 
@@ -26,15 +26,15 @@
 
     <Button
         android:id="@+id/clasesOnLine"
-        android:layout_width="113dp"
-        android:layout_height="181dp"
+        android:layout_width="185dp"
+        android:layout_height="127dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441" />
+        app:layout_constraintVertical_bias="0.423" />
 
     <Button
         android:id="@+id/alInicioDeseMateria"

@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                     alumno = Repositorio.get().get(i-1).nombre
                     posicion=i-1
                     aceptado = true
+
                 }
             }
             dniLog.text.clear()
