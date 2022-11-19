@@ -1,4 +1,5 @@
 package com.example.abcayudaescolar
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
@@ -6,11 +7,14 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.ImageView
 import kotlin.system.exitProcess
 
 var materia=""
 
+
 lateinit var mate:Button
+
 lateinit var lengua :Button
 lateinit var geografia:Button
 lateinit var quimica:Button
@@ -19,7 +23,7 @@ lateinit var fisica:Button
 lateinit var salir:ImageButton
 lateinit var bajarBarra:Button
 lateinit var menu:Button
-lateinit var menuimage:View
+lateinit var menuimage:ImageView
 class pantallaPrincipal : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,20 +36,18 @@ class pantallaPrincipal : AppCompatActivity() {
         fisica=findViewById(R.id.fisica)
         salir=findViewById(R.id.button2)
         bajarBarra=findViewById(R.id.cambioahomeconmenu)
-        menu= findViewById(R.id.menu)
-        menuimage=findViewById(R.id.nnnnnn)
-        menu.visibility =View.INVISIBLE
+
+
+
+
         salir.setOnClickListener{
             finishAffinity()
         }
-        menu.setOnClickListener{
-            menu.visibility =View.VISIBLE
-        }
+
         bajarBarra.setOnClickListener{
             val lanzar = Intent(this, opciones_por_curso_con_menuDesplegado::class.java) //home
             startActivity(lanzar)
         }
-
 
         mate.setOnClickListener {
         llamadaAMateria("Matematicas")

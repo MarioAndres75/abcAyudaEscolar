@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/treshomedematerias"
+    android:background="@drawable/cuatro"
     tools:context=".pantallaPrincipal">
 
     <Button
@@ -98,8 +98,8 @@
 
     <Button
         android:id="@+id/cambioahomeconmenu"
-        android:layout_width="27dp"
-        android:layout_height="347dp"
+        android:layout_width="69dp"
+        android:layout_height="355dp"
         android:layout_marginTop="320dp"
         android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,24 +107,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/nnnnnn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="68dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/menu" />
-
-    <Button
-        android:id="@+id/menu"
-        android:layout_width="129dp"
-        android:layout_height="75dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="663dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

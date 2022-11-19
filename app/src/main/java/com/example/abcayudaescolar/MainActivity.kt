@@ -29,9 +29,10 @@ class MainActivity : AppCompatActivity() {
             var aceptado=false
             var alumno =""
             for ( i in 1..Repositorio.get().size) {
-                if (Repositorio.get().get(i-1).dni.equals(dniLog.text.toString())&&
-                    Repositorio.get().get(i-1).clave.equals(claveLog.text.toString())) {
-                    alumno = Repositorio.get().get(i-1).nombre
+                if (Repositorio.get()[i-1].dni == dniLog.text.toString() &&
+                    Repositorio.get()[i-1].clave == claveLog.text.toString()
+                ) {
+                    alumno = Repositorio.get()[i-1].nombre
                     posicion=i-1
                     aceptado = true
 

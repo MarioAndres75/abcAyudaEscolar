@@ -10,9 +10,9 @@
 
     <Button
         android:id="@+id/volverDeNuevo"
-        android:layout_width="138dp"
-        android:layout_height="106dp"
-        android:layout_marginTop="624dp"
+        android:layout_width="147dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="588dp"
         android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
